@@ -36,6 +36,10 @@ module.exports = {
             9: '#2D2D48'
           }
         }
+      },
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif']
       }
     }
   },
