@@ -127,38 +127,38 @@ const App = () => {
           <div>
             <h2 className='font-roboto font-thin'>Thin</h2>
           </div>
-          <div className='ml-10 font-roboto font-thin italic'>
-            <h2>Thin Italic</h2>
+          <div className='ml-10'>
+            <h2 className='font-roboto font-thin italic'>Thin Italic</h2>
           </div>
-          <div className='ml-10 font-roboto font-light'>
-            <h2>Light</h2>
+          <div className='ml-10'>
+            <h2 className='font-roboto font-light'>Light</h2>
           </div>
-          <div className='ml-10 font-roboto font-light italic'>
-            <h2>Light Italic</h2>
+          <div className='ml-10'>
+            <h2 className='font-roboto font-light italic'>Light Italic</h2>
           </div>
-          <div className='ml-10 font-roboto font-normal'>
-            <h2>Regular</h2>
+          <div className='ml-10'>
+            <h2 className='font-roboto font-normal'>Regular</h2>
           </div>
-          <div className='ml-10 font-roboto font-normal italic'>
-            <h2>Regular Italic</h2>
+          <div className='ml-10'>
+            <h2 className='font-roboto font-normal italic'>Regular Italic</h2>
           </div>
-          <div className='ml-10 font-roboto font-medium'>
-            <h2>Medium</h2>
+          <div className='ml-10'>
+            <h2 className='font-roboto font-medium'>Medium</h2>
           </div>
-          <div className='ml-10 font-roboto font-medium italic'>
-            <h2>Medium Italic</h2>
+          <div className='ml-10'>
+            <h2 className='font-roboto font-medium italic'>Medium Italic</h2>
           </div>
-          <div className='ml-10 font-roboto font-bold'>
-            <h2>Bold</h2>
+          <div className='ml-10'>
+            <h2 className='font-roboto font-bold'>Bold</h2>
           </div>
-          <div className='ml-10 font-roboto font-bold italic'>
-            <h2>Bold Italic</h2>
+          <div className='ml-10'>
+            <h2 className='font-roboto font-bold italic'>Bold Italic</h2>
           </div>
-          <div className='ml-10 font-roboto font-black'>
-            <h2>Black</h2>
+          <div className='ml-10'>
+            <h2 className='font-roboto font-black'>Black</h2>
           </div>
-          <div className='ml-10 font-roboto font-black italic'>
-            <h2>Black Italic</h2>
+          <div className='ml-10'>
+            <h2 className='font-roboto font-black italic'>Black Italic</h2>
           </div>
         </div>
       </div>
@@ -166,41 +166,67 @@ const App = () => {
       <div className='pl-20 pt-20 pb-20'>
         <h1 className='text-3xl font-bold text-dwolla-gray-9'>Poppins Font</h1>
         <div className='flex text-2xl font-bold mt-10'>
-          <div>
-            <h2 className='font-roboto font-thin'>Thin</h2>
-          </div>
-          <div className='ml-10 font-roboto font-thin italic'>
-            <h2>Thin Italic</h2>
-          </div>
-          <div className='ml-10 font-roboto font-light'>
-            <h2>Light</h2>
-          </div>
-          <div className='ml-10 font-roboto font-light italic'>
-            <h2>Light Italic</h2>
-          </div>
-          <div className='ml-10 font-roboto font-normal'>
-            <h2>Regular</h2>
-          </div>
-          <div className='ml-10 font-roboto font-normal italic'>
-            <h2>Regular Italic</h2>
-          </div>
-          <div className='ml-10 font-roboto font-medium'>
-            <h2>Medium</h2>
-          </div>
-          <div className='ml-10 font-roboto font-medium italic'>
-            <h2>Medium Italic</h2>
-          </div>
-          <div className='ml-10 font-roboto font-bold'>
-            <h2>Bold</h2>
-          </div>
-          <div className='ml-10 font-roboto font-bold italic'>
-            <h2>Bold Italic</h2>
-          </div>
-          <div className='ml-10 font-roboto font-black'>
-            <h2>Black</h2>
-          </div>
-          <div className='ml-10 font-roboto font-black italic'>
-            <h2>Black Italic</h2>
+          <div className='flex flex-col'>
+            <div className='flex'>
+              <div>
+                <h2 className='font-poppins font-thin'>Thin</h2>
+              </div>
+              <div className='ml-10'>
+                <h2 className='font-poppins font-thin italic'>Thin Italic</h2>
+              </div>
+              <div className='ml-10'>
+                <h2 className='font-poppins font-extralight'>Extra Light</h2>
+              </div>
+              <div className='ml-10'>
+                <h2 className='font-poppins font-extralight italic'>
+                  Extra Light Italic
+                </h2>
+              </div>
+              <div className='ml-10'>
+                <h2 className='font-poppins font-light'>Light</h2>
+              </div>
+              <div className='ml-10'>
+                <h2 className='font-poppins font-light italic'>Light Italic</h2>
+              </div>
+              <div className='ml-10'>
+                <h2 className='font-poppins font-normal'>Regular</h2>
+              </div>
+              <div className='ml-10'>
+                <h2 className='font-poppins font-medium'>Regular Italic</h2>
+              </div>
+              <div>
+                <h2 className='ml-10 font-poppins font-medium'>Medium</h2>
+              </div>
+              <div className='ml-10 font-poppins font-medium italic'>
+                <h2>Medium Italic</h2>
+              </div>
+            </div>
+            <div className='flex mt-5'>
+              <div>
+                <h2 className='font-poppins font-semibold'>Semi Bold</h2>
+              </div>
+              <div className='ml-10 font-poppins font-semibold italic'>
+                <h2>Semi Bold Italic</h2>
+              </div>
+              <div className='ml-10 font-poppins font-bold'>
+                <h2>Bold</h2>
+              </div>
+              <div className='ml-10 font-poppins font-bold'>
+                <h2>Bold Italic</h2>
+              </div>
+              <div className='ml-10 font-poppins font-extrabold'>
+                <h2>Extra Bold</h2>
+              </div>
+              <div className='ml-10 font-poppins font-extrabold italic'>
+                <h2>Extra Bold Italic</h2>
+              </div>
+              <div className='ml-10 font-poppins font-black'>
+                <h2>Black</h2>
+              </div>
+              <div className='ml-10 font-poppins font-black italic'>
+                <h2>Black Italic</h2>
+              </div>
+            </div>
           </div>
         </div>
       </div>
