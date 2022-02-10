@@ -163,7 +163,7 @@ const App = () => {
         </div>
       </div>
 
-      <div className='pl-20 pt-20 pb-20'>
+      <div className='pl-20 pt-20'>
         <h1 className='text-3xl font-bold text-dwolla-gray-9'>Poppins Font</h1>
         <div className='flex text-2xl font-bold mt-10'>
           <div className='flex flex-col'>
@@ -227,6 +227,25 @@ const App = () => {
                 <h2>Black Italic</h2>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className='pl-20 pt-20 pb-20'>
+        <h1 className='text-3xl font-bold text-dwolla-gray-9'>Font Color Example</h1>
+        <h3 className='text-xl'>This example won't show every possible color and font combo. However, the same pattern can be applied to create anything you wish!</h3>
+        <div className='flex text-2xl font-bold mt-10'>
+          <div>
+            <h2 className='font-roboto text-dwolla-primary-purple'>Primary Purple</h2>
+          </div>
+          <div className='ml-10'>
+            <h2 className='font-roboto text-dwolla-primary-orange'>Primary Orange</h2>
+          </div>
+          <div className='ml-10'>
+            <h2 className='font-roboto text-dwolla-darkPurple-8'>Dark Purple 8</h2>
+          </div>
+          <div className='ml-10'>
+            <h2 className='font-roboto text-dwolla-gray-7'>Gray 7</h2>
           </div>
         </div>
       </div>
